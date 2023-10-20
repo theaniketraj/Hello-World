@@ -1,0 +1,4 @@
+# In Icon
+procedure main()
+ write("Hello world")
+end
