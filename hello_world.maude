@@ -1,0 +1,6 @@
+fmod HELLOWORLD is
+protecting STRING .
+ op helloworld : -> String .
+ eq helloworld = "Hello, World." .
+endfm
+red helloworld .
