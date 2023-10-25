@@ -1,8 +1,7 @@
-MODULE Hello;
+* Modula-2 R10 *)  
 
-FROM InOut IMPORT WriteLn, WriteString;
-
+MODULE Hello; 
+IMPORT PervasiveIO;
 BEGIN
- WriteString ("Hello, World!");
- WriteLn
-END Hello.
+   WRITE("Hello, World!\n");
+END Hello. 
