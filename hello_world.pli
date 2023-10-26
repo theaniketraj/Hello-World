@@ -1,0 +1,3 @@
+Test: proc options(main) reorder;
+ put skip edit('Hello, World!') (a);
+end Test;
